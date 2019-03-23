@@ -4,7 +4,7 @@ Quickstart Guide: Standalone 모드를 활용한 Cat.M1 모듈 테스트
 
 > * 본 가이드는 Cat.M1 모듈의 AT 명령어 동작을 확인하기 위한 테스트 과정으로, MCU 보드 없이 WIZnet IoT Shield 및 인터페이스 보드만을 활용합니다.
 
-> * Cat.M1과 같은 Cellular IoT 디바이스는 통신 서비스 사업자의 운영 기준 및 규정에 따라 모듈 펌웨어 및 동작 방식에 차이가 있을 수 있습니다. 본 문서는 한국 **[SK Telecom Cat.M1 서비스][skt-iot-portal]**를 기준으로 작성되었습니다.
+> * Cat.M1과 같은 Cellular IoT 디바이스는 통신 서비스 사업자의 운영 기준 및 규정에 따라 모듈 펌웨어 및 동작 방식에 차이가 있을 수 있습니다. 본 문서는 한국 **[SK Telecom Cat.M1 서비스][skt-iot-portal]** 를 기준으로 작성되었습니다.
 
 
 ### Development Environment
@@ -43,7 +43,7 @@ Quickstart Guide: Standalone 모드를 활용한 Cat.M1 모듈 테스트
 
 1. 윈도우 장치 관리자에서 모듈이 연결된 COM 포트를 확인합니다.
 
-2. 시리얼 터미널 프로그램을 실행하여 보드의 COM 포트와 **Baudrate 115200**을 선택 연결을 수행합니다.
+2. 시리얼 터미널 프로그램을 실행하여 보드의 COM 포트로 **Baudrate 115200**을 선택하여 연결을 수행합니다.
 
 
 > 예제 코드의 시리얼 포트 설정은 115200-8-N-1, None입니다.
