@@ -98,6 +98,7 @@ AT+COPS=?
 ![][2]
 
 
+[skt-iot-portal]: https://www.sktiot.com/iot/developer/guide/guide/catM1/menu_05/page_01
 
 [usb-port]: ./imgs/wiot-shield-usbport.png
 [1]: ./imgs/quickstartguide_standalone_mode-1.png
