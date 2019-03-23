@@ -16,23 +16,23 @@
 
 > * 본 문서에서는 Cat.M1 단말에 UART 인터페이스를 연결하고 AT 명령어 기반에서 WIZnet IoT shield를 이용하여 Cat.M1 단말이 **[ThingPlug][link-thingplug-portal]** 에 연결하고 데이터를 송신하는 방법에 대한 가이드를 제공합니다.
 > 
-> * Cat.M1과 같은 Cellular IoT 디바이스는 통신 서비스 사업자의 운영 기준 및 규정에 따라 모듈 펌웨어 및 동작 방식에 차이가 있을 수 있습니다. 본 문서는 한국 **[SK Telecom Cat.M1 서비스][skt-iot-portal]**를 기준으로 작성되었습니다.
+> * Cat.M1과 같은 Cellular IoT 디바이스는 통신 서비스 사업자의 운영 기준 및 규정에 따라 모듈 펌웨어 및 동작 방식에 차이가 있을 수 있습니다. 본 문서는 한국 **[SK Telecom Cat.M1 서비스][skt-iot-portal]** 를 기준으로 작성되었습니다.
 
 ### Development Environment
 * **[SKT ThingPlug Portal][link-thingplug-portal]**
 
 
 
-### Hardware Requirement
+### Supported Boards
 
 | IoT Shield Interface Board |
-|:--------:|
-| WIoT-QC01 (BG96) |
+|:--------|
+| WIoT-QC01 (BG96)<br>WIoT-WM01 (WM-N400MSE)<br>WIoT-AM01 (AMM5918K) |
 
-<a name="#Step-1-Overview"></a>
+<a name="Step-1-Overview"></a>
 ## 소개
 
-**[ThingPlug][link-thingplug-portal]**는 고객의 IoT 디바이스의 관제/제어와 빅데이터 비즈니스를 제공하는 SKT의 IoT 플랫폼입니다. 사용자가 ThingPlug를 활용하여 IoT 서비스를 손쉽게 구현할 수 있도록 지원하고 있습니다.
+**[ThingPlug][link-thingplug-portal]** 는 고객의 IoT 디바이스의 관제/제어와 빅데이터 비즈니스를 제공하는 SKT의 IoT 플랫폼입니다. 사용자가 ThingPlug를 활용하여 IoT 서비스를 손쉽게 구현할 수 있도록 지원하고 있습니다.
 
 ![](\imgs\thingplug_main.png)
 
@@ -46,7 +46,7 @@ Cat.M1 모듈 및 외장형 모뎀은 UART 인터페이스를 통해 활용하�
 4. Cat.M1 디바이스로 ThingPlug에 접속
 
 
-<a name="#Step-2-Create-Service"></a>
+<a name="Step-2-Create-Service"></a>
 ## 서비스 생성
 
 ThingPlug는 사용자가 서비스를 생성하고 서비스에 디바이스를 등록하는 구조입니다.
@@ -57,7 +57,7 @@ ThingPlug는 사용자가 서비스를 생성하고 서비스에 디바이스를
 ![](\imgs\thingplug_function.png)
 
 
-<a name="#Step-3-Device-Descriptor"></a>
+<a name="Step-3-Device-Descriptor"></a>
 ## 디바이스 명세 작성
 앞서 생성한 "서비스"에 디바이스를 등록하기 위해서는 "디바이스 명세"를 먼저 등록해야 합니다.
 "디바이스 명세"란 등록할 디바이스의 여러가지 속성을 데이터 타입으로 분류하여 사전에 등록하는 것입니다. 하나의 디바이스 명세로 같은 속성의 여러 디바이스들을 등록할 수 있습니다.
@@ -96,7 +96,7 @@ Telemetry는 온도, 습도 등의 측정되는 데이터이며, Attribute는 �
 ```
 
 
-<a name="#Step-4-Device-Create"></a>
+<a name="Step-4-Device-Create"></a>
 ## 디바이스 등록
 
 서비스와 디바이스 명세 작성이 완료되었다면, 디바이스를 등록할 수 있습니다.
@@ -110,7 +110,7 @@ Cat.M1 디바이스는 등록된 디바이스의 ID와 Token을 사용하여 Thi
 ![](\imgs\thingplug_dev_02.png)
 
 
-<a name="#Step-5-Connect-ThingPlug"></a>
+<a name="Step-5-Connect-ThingPlug"></a>
 ## Cat.M1 디바이스로 ThingPlug 접속하기
 
 
@@ -133,13 +133,11 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
 
 
 
-<a name="#Step-6-ThingPlug-ATCommand"></a>
+<a name="Step-6-ThingPlug-ATCommand"></a>
 ## ThingPlug AT 명령어
 
-> 좀 더 상세한 AT 명령어 설명은 Quectel AT Command Manual에서 확인 하실 수 있습니다.
+> 좀 더 상세한 AT 명령어 설명은 SKT Thingplug AT Command Manual에서 확인 하실 수 있습니다.
 > * [ThingPlug AT 명령어][link-bg96-atcommand-manual]
-> * [BG96_AT_Commands_Manual_V2.1][link-bg96-atcommand-manual]
-
 
 ### 1. ThingPlug 연동 상태 조회
 
@@ -305,7 +303,7 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
 | 100~122 | Platform Error |
 
 
-<a name="#ReadMore"></a>
+<a name="ReadMore"></a>
 ## 더 보기
 
 * MBED 기반의 Cat.M1 ThingPlug 연동 가이드 (준비 중)
@@ -319,6 +317,5 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
  [link-bg96-atcommand-manual]: https://www.quectel.com/UploadImage/Downlad/Quectel_BG96_AT_Commands_Manual_V2.1.pdf
  [link-bg96-tcp-manual]: https://www.quectel.com/UploadImage/Downlad/Quectel_BG96_TCP(IP)_AT_Commands_Manual_V1.0.pdf
 
- [link-thingplug-portal]: https://portal.sktiot.com/intro
- [link-at-comm]: https://
+ [link-thingplug-portal]: https://portal.sktiot.com/intro 
  
