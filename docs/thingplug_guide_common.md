@@ -114,7 +114,8 @@ Cat.M1 디바이스는 등록된 디바이스의 ID와 Token을 사용하여 Thi
 ## Cat.M1 디바이스로 ThingPlug 접속하기
 
 
-예를 들어 서비스 명 smarthome에 등록된 디바이스 smartlight001 가 ThingPlug에 접속하기 위해서는 아래와 같은 [AT 명령](#Step-6-ThingPlug-ATCommand) 절차가 필요합니다.
+예를 들어 서비스 명 smarthome에 등록된 디바이스 smartlight001 가 ThingPlug에 접속하기 위해서는 아래와 같은 [AT 명령](#Step-6-ThingPlug-
+) 절차가 필요합니다.
 
 ```
 AT+SKTPCON=1,"MQTT","test.sktiot.com",1883,120,1,"simple_v1","a0149f60b---------","smarthome","smartlight001"
@@ -137,7 +138,8 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
 ## ThingPlug AT 명령어
 
 > 좀 더 상세한 AT 명령어 설명은 SKT Thingplug AT Command Manual에서 확인 하실 수 있습니다.
-> * [ThingPlug AT 명령어][link-bg96-atcommand-manual]
+> * [BG96 AT 명령어][link-bg96-atcommand-manual]
+> * [ThingPlug AT 명령어][link-thingplug-atcommand-manual]
 
 ### 1. ThingPlug 연동 상태 조회
 
@@ -177,8 +179,7 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
 
 | Type | Syntax | Respones | Example
 |:--------|:--------|:--------|:--------|
-| Test | AT+SKTPCON | OK<br>status:disconnected | - |
-| Read | AT+QIACT? | +QIACT:<br>(1,(context_state),(context_type)[,(IP_address)]<br>[.....<br>+QIACT:<br>(16,(context_state),(context_type)[,(IP_address)]]<br><br>OK | AT+QIACT?<br><br>+QIACT:<br> 1,1,2,"2001:2D8:13B1:4A65:0:0:A248:8002"<br><br> OK |
+| Read | AT+SKTPCON | OK<br>status:disconnected | - |
 | Write | AT+SKTPCON=(flag),(protocol),(thingplug_host),(thingplug_port),(keepalive),<br>(cleansession),(api_version),(device_token),(service_id),(device_id) | ThingPlug와 연결 | +SKTPCON=0 |
 
 
@@ -316,6 +317,8 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
  [link-nucleo-l476rg]: https://os.mbed.com/platforms/ST-Nucleo-L476RG/
  [link-bg96-atcommand-manual]: https://www.quectel.com/UploadImage/Downlad/Quectel_BG96_AT_Commands_Manual_V2.1.pdf
  [link-bg96-tcp-manual]: https://www.quectel.com/UploadImage/Downlad/Quectel_BG96_TCP(IP)_AT_Commands_Manual_V1.0.pdf
-
+ 
+ 
+ [link-thingplug-atcommand-manual]: https://www.sktiot.com/api/common/file/download?fileId=00EYNW8OXF8VA94EE29A
  [link-thingplug-portal]: https://portal.sktiot.com/intro 
  
