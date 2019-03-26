@@ -48,10 +48,9 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 ### IoT Shield Board
 
 **WIZnet IoT Shield for Cat.M1의 인터페이스 모듈 결합 전 / 후**
+> WIoT-QC01 인터페이스 모듈 결합
 
-![][wiot-shield]
-
-![][wiot-shield-h]
+![][wiot-shield-compare]
 
 
 ### Interface Boards
@@ -85,6 +84,7 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 
 [wiot-shield]: ./docs/imgs/hw/wiot-shield_top.png
 [wiot-shield-h]: ./docs/imgs/hw/wiot-shield-qc01_top_h.png
+[wiot-shield-compare]: ./docs/imgs/hw/wiot-shield-qc01-compare.png
 [wiot-qc01]: ./docs/imgs/hw/wiot-qc01_top.png
 [wiot-wm01]: ./docs/imgs/hw/wiot-wm01_top.png
 [wiot-am01]: ./docs/imgs/hw/wiot-am01_top.png
