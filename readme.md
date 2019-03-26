@@ -59,7 +59,7 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 
 | ![][wiot-qc01]             | ![][wiot-wm01]                 | ![][wiot-am01]                 |
 |:--------------------------:|:------------------------------:|:------------------------------:|
-| **WIoT-QC01** (BG96, 앰투앰넷) | **WIoT-WM01** (WM-N400MSE, 우리넷) | **WIoT-AM01** (AMM5918K, AM텔레콤) |
+| **WIoT-QC01** <br>(BG96, 앰투앰넷) | **WIoT-WM01** <br>(WM-N400MSE, 우리넷) | **WIoT-AM01** <br>(AMM5918K, AM텔레콤) |
 
 > 추후 다양한 벤더의 모듈이 추가 될 수 있습니다.
 
@@ -70,11 +70,10 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 
 ## Support
 
-[![WIZnet Developer Forum][forum]](https://forum.wiznet.io/)
-
 **[WIZnet Developer Forum](https://forum.wiznet.io/)** 에서 전세계의 WIZnet 기술 전문가들에게 질문하고 의견을 전달할 수 있습니다. 
 지금 방문하세요!
 
+[![WIZnet Developer Forum][forum]](https://forum.wiznet.io/)
 
 
 ## License
