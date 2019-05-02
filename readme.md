@@ -70,9 +70,9 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 
 ## Support
 
-[![WIZnet Developer Forum][forum]](https://forum.wiznet.io/)
+[![WIZnet Developer Forum][forum]](https://forum.wiznet.io/c/korean-forum/oshw)
 
-**[WIZnet Developer Forum](https://forum.wiznet.io/)** 에서 전세계의 WIZnet 기술 전문가들에게 질문하고 의견을 전달할 수 있습니다. 
+**[WIZnet Developer Forum](https://forum.wiznet.io/c/korean-forum/oshw)** 에서 전세계의 WIZnet 기술 전문가들에게 질문하고 의견을 전달할 수 있습니다. 
 지금 방문하세요!
 
 ## License
