@@ -307,11 +307,11 @@ AT+SKTPDAT=1,"telemetry",0를 입력하면 '>' 프롬프트가 활성화 되면 
 <a name="ReadMore"></a>
 ## 더 보기
 
-* MBED 기반의 Cat.M1 ThingPlug 연동 가이드 (준비 중)
+* [MBED 기반의 Cat.M1 ThingPlug 연동 가이드][mbed-thingplug-guide]
 * Arduino 기반의 Cat.M1 ThingPlug 연동 가이드 (준비 중)
 
 
- [mbed-getting-started]: https://
+ [mbed-thingplug-guide]: https://github.com/Wiznet/wiznet-iot-shield-mbed-kr/blob/master/docs/mbed_guide_bg96_cloud_thingplug.md
  [skt-iot-portal]: https://www.sktiot.com/iot/developer/guide/guide/catM1/menu_05/page_01
  [link-mbed-compiler]: https://ide.mbed.com/compiler/
  [link-nucleo-l476rg]: https://os.mbed.com/platforms/ST-Nucleo-L476RG/
