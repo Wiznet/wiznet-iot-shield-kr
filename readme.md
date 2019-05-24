@@ -12,6 +12,8 @@
 
 ## WIZnet IoT Shield for Cat.M1
 
+![][wiot-shield-h]
+
 ### Overview
 
 WIZnet IoT Shield는 다양한 오픈 하드웨어 플랫폼 및 상용 보드 기반에서 **Cat.M1 응용 제품**을 구현 할 수 있도록 개발 되었습니다.
