@@ -59,9 +59,9 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 
 **WIZnet IoT Shield for Cat.M1은 다음과 같은 Cat.M1 모듈을 지원합니다.**
 
-| ![][wiot-qc01]             | ![][wiot-wm01]                 | ![][wiot-am01]                 |
-|:--------------------------:|:------------------------------:|:------------------------------:|
-| **WIoT-QC01** <br>(BG96, 앰투앰넷) | **WIoT-WM01** <br>(WM-N400MSE, 우리넷) | **WIoT-AM01** <br>(AMM5918K, AM텔레콤) |
+| ![][wiot-qc01]             | ![][wiot-wm01]                 | ![][wiot-am01]                 | ![][wiot-tl01]                 |
+|:--------------------------:|:------------------------------:|:------------------------------:|:------------------------------:|
+| **WIoT-QC01** <br>(BG96, 앰투앰넷) | **WIoT-WM01** <br>(WM-N400MSE, 우리넷) | **WIoT-AM01** <br>(AMM5918K, AM텔레콤) | **WIoT-TL01** <br>(ME910C1-K1, 텔릿) |
 
 > 추후 다양한 벤더의 모듈이 추가 될 수 있습니다.
 
@@ -89,6 +89,7 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 [wiot-qc01]: ./docs/imgs/hw/wiot-qc01_top.png
 [wiot-wm01]: ./docs/imgs/hw/wiot-wm01_top.png
 [wiot-am01]: ./docs/imgs/hw/wiot-am01_top.png
+[wiot-tl01]: ./docs/imgs/hw/wiot-tl01_top.png
 [forum]: ./docs/imgs/forum.jpg
 
 [shield-layout]: ./docs/imgs/WIoT-Shield_Allparts.png
