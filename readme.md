@@ -38,8 +38,6 @@ WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소�
 * **[WIZnet IoT Shield for Arm MBED](https://github.com/Wiznet/wiznet-iot-shield-mbed-kr)**
 * **[WIZnet IoT Shield for Raspberry Pi](https://github.com/Wiznet/wiznet-iot-shield-raspberrypi-kr)**
 
-**상용 개발 보드**
-* **WIZnet IoT Shield for Embedded Device** (준비 중)
 
 
 **하드웨어 개발 자료**
