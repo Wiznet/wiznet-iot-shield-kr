@@ -32,6 +32,8 @@ WIZnet IoT Shield는 다양한 오픈 하드웨어 플랫폼 및 상용 보드 �
 WIZnet IoT Shield의 각 플랫폼 별 Cat.M1 개발 자료는 아래 저장소에서 확인하실 수 있습니다.
 상세한 내용은 각각의 저장소를 참고 하시기 바랍니다.
 
+* **[Quickstart Guide: Standalone 모드를 활용한 Cat.M1 모듈 테스트](https://github.com/Wiznet/wiznet-iot-shield-kr/blob/master/docs/quickstartguide_standalone_mode.md)**
+
 
 **오픈 하드웨어 플랫폼 보드**
 * **[WIZnet IoT Shield for Arduino](https://github.com/Wiznet/wiznet-iot-shield-arduino-kr)**
